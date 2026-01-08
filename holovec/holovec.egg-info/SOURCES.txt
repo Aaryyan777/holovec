@@ -1,0 +1,12 @@
+README.md
+setup.py
+holovec/__init__.py
+holovec/core.py
+holovec/encoders.py
+holovec/learning.py
+holovec/memory.py
+holovec.egg-info/PKG-INFO
+holovec.egg-info/SOURCES.txt
+holovec.egg-info/dependency_links.txt
+holovec.egg-info/requires.txt
+holovec.egg-info/top_level.txt

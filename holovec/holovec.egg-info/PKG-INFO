@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: holovec
+Version: 0.1.0
+Summary: A Hyperdimensional Computing (HDC) Library
+Author: Gemini CLI
+Requires-Python: >=3.7
