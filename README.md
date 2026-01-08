@@ -10,7 +10,7 @@ It provides a bridge between the **biological plausibility** of distributed memo
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 1. [The Paradigm Shift](#-the-paradigm-shift)
 2. [Key Innovations](#-key-innovations)
@@ -23,7 +23,7 @@ It provides a bridge between the **biological plausibility** of distributed memo
 
 ---
 
-## 🌌 The Paradigm Shift
+##  The Changes
 
 Modern AI is dominated by **Localist** and **Hierarchical** representations (Deep Learning). HoloVec proposes a **Distributed** and **Holographic** approach.
 
@@ -39,7 +39,7 @@ Modern AI is dominated by **Localist** and **Hierarchical** representations (Dee
 
 ---
 
-## 🚀 Key Innovations
+##  Novelty
 
 HoloVec introduces several novel components to the HDC landscape to make it production-ready:
 
@@ -56,7 +56,7 @@ HoloVec introduces several novel components to the HDC landscape to make it prod
 
 ---
 
-## 🧠 Architecture & Mathematics
+##  Architecture & Mathematics
 
 The core of HoloVec is the `HyperVector`: a 10,000-dimensional array $V \in \{-1, 1\}^{D}$.
 
@@ -79,7 +79,7 @@ $$ B = \Pi(A) \implies \text{sim}(B, A) \approx 0 $$
 
 ---
 
-## 📦 Installation
+##  Installation
 
 HoloVec is a standard Python package.
 
@@ -140,7 +140,7 @@ preds = model.predict(test_vectors)
 
 ---
 
-## 📊 Comprehensive Benchmarks
+##  Benchmarks
 
 We rigorously tested HoloVec on complex datasets to prove its viability compared to standard techniques.
 
@@ -171,7 +171,7 @@ We rigorously tested HoloVec on complex datasets to prove its viability compared
 
 ---
 
-## 📐 Mathematical Foundations
+##  Mathematical Foundations
 
 Why does this work?
 
@@ -181,7 +181,7 @@ Why does this work?
 
 ---
 
-## 🛠 Module Reference
+##  Module Reference
 
 ### `holovec.core`
 *   `HyperVector(data)`: The atom of the system.
@@ -200,8 +200,3 @@ Why does this work?
 
 ### `holovec.memory`
 *   `AssociativeMemory`: A dictionary-like store that performs similarity search to find the "closest" concept.
-
----
-
-**HoloVec** © 2026. Open Source.
-*Learning is Algebra.*
