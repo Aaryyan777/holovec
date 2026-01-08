@@ -64,17 +64,23 @@ The core of HoloVec is the `HyperVector`: a 10,000-dimensional array $V \in \{-1
 
 #### 1. Bundle (Superposition) `+`
 combines two vectors into a single vector that is **similar** to both inputs. It represents **Sets** or **Memory**.
+
 $$ C = A + B \implies \text{sim}(C, A) \approx high, \text{sim}(C, B) \approx high $$
+
 *Used for:* Remembering multiple examples of a class (e.g., "Cat" = Cat_Img1 + Cat_Img2).
 
 #### 2. Bind (Association) `*`
 Pairs two vectors to create a NEW vector that is **dissimilar** to both inputs. It represents **Variables** or **Pointers**.
+
 $$ C = A * B \implies \text{sim}(C, A) \approx 0, \text{sim}(C, B) \approx 0 $$
+
 *Used for:* Key-Value pairs (e.g., Feature="Color" * Value="Red").
 
 #### 3. Permute (Sequence) `Π`
 Cyclically shifts the vector. It preserves information but makes it dissimilar to the original.
+
 $$ B = \Pi(A) \implies \text{sim}(B, A) \approx 0 $$
+
 *Used for:* Encoding Sequences (e.g., N-grams in text: "THE" $\neq$ "HTE").
 
 ---
@@ -195,8 +201,10 @@ Why does this work?
 
 ### `holovec.learning`
 *   `PerceptronClassifier`: Implements the iterative HDC algorithm:
-    $$ P_{correct} \leftarrow P_{correct} + \alpha \cdot X $$
-    $$ P_{wrong} \leftarrow P_{wrong} - \alpha \cdot X $
+
+  $$ P_{\text{correct}} \leftarrow P_{\text{correct}} + \alpha \cdot X $$
+
+  $$ P_{\text{wrong}} \leftarrow P_{\text{wrong}} - \alpha \cdot X $$
 
 ### `holovec.memory`
 *   `AssociativeMemory`: A dictionary-like store that performs similarity search to find the "closest" concept.
