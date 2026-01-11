@@ -1,4 +1,4 @@
-# HoloVec: A Research-Grade Library for Hyperdimensional Computing
+# HoloVec: A Library for Hyperdimensional Computing
 
 > **"Learning is not optimization; learning is algebra."**
 
@@ -99,7 +99,7 @@ pip install -e .
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. One-Shot Learning (Text)
 
@@ -208,3 +208,4 @@ Why does this work?
 
 ### `holovec.memory`
 *   `AssociativeMemory`: A dictionary-like store that performs similarity search to find the "closest" concept.
+---
